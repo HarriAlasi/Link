@@ -164,7 +164,7 @@ private Control FindControlRecursive(Control root, string id)
             if (IsValid)
                 
             {
-                ToggleWebEncrypt();
+                //ToggleWebEncrypt();
 
                 //checking how many pages are entered
                 for (int i =1; i < 11; i++)
