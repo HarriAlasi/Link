@@ -189,7 +189,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Properties\PublishProfiles\WebApplication820160613042023.pubxml" />
+    <None Include="Properties\PublishProfiles\WebApplication820160620024558 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Global.asax" />
     <Content Include="proov.aspx" />

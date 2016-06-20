@@ -6,7 +6,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
-using WebApplication8;
+//using WebApplication8;
 
 namespace Link
 {
@@ -15,8 +15,9 @@ namespace Link
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            WebApplication8.RouteConfig.RegisterRoutes(RouteTable.Routes);
+            WebApplication8.BundleConfig.RegisterBundles(BundleTable.Bundles);
+
         }
 
         protected void Session_Start(object sender, EventArgs e)
